@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.7f5c0f84.css",
+    "main.js": "/MyPortfolio/static/js/main.9565f73b.js",
+    "static/js/453.aac68abc.chunk.js": "/MyPortfolio/static/js/453.aac68abc.chunk.js",
+    "static/media/MuqadusCV.pdf": "/MyPortfolio/static/media/MuqadusCV.16d5a466f62fa83523fd.pdf",
+    "static/media/instagramlink.png": "/MyPortfolio/static/media/instagramlink.acf0c81719866abe76ef.png",
+    "static/media/Intro2.png": "/MyPortfolio/static/media/Intro2.09edbc32105b2e2c75e2.png",
+    "static/media/watsicon.png": "/MyPortfolio/static/media/watsicon.55e462485ad47895e1f4.png",
+    "static/media/Aboutme.png": "/MyPortfolio/static/media/Aboutme.759d90616f661d8ef512.png",
+    "static/media/logo.png": "/MyPortfolio/static/media/logo.9a5230b316805ebe91b4.png",
+    "static/media/linkedinlink.png": "/MyPortfolio/static/media/linkedinlink.df899cc802b693825681.png",
+    "static/media/maillink.png": "/MyPortfolio/static/media/maillink.e61fa2aaea5034fc3800.png",
+    "static/media/burger_menu-removebg-preview.png": "/MyPortfolio/static/media/burger_menu-removebg-preview.fbe7c1c8359db4a9ab93.png",
+    "static/media/faceboklink.png": "/MyPortfolio/static/media/faceboklink.b0c5ca494dfb4bceceba.png",
+    "static/media/CV.png": "/MyPortfolio/static/media/CV.420e42d254a1b43b2fa9.png",
+    "static/media/Gameskill.avif": "/MyPortfolio/static/media/Gameskill.ae4b25086c78d53fcfc5.avif",
+    "static/media/Webskill.png": "/MyPortfolio/static/media/Webskill.83b7efb79c00e7d0dbf2.png",
+    "static/media/githublink.png": "/MyPortfolio/static/media/githublink.4075d1f42f4299ceff30.png",
+    "static/media/youtube.png": "/MyPortfolio/static/media/youtube.12459a7bf1ccaea661c6.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.7f5c0f84.css.map": "/MyPortfolio/static/css/main.7f5c0f84.css.map",
+    "main.9565f73b.js.map": "/MyPortfolio/static/js/main.9565f73b.js.map",
+    "453.aac68abc.chunk.js.map": "/MyPortfolio/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f5c0f84.css",
+    "static/js/main.9565f73b.js"
+  ]
+}
