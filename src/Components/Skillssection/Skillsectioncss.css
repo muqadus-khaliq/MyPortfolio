@@ -1,0 +1,119 @@
+#skillpart{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+ margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ /* control our section controllable */
+/* .Skillsbars {
+    overflow-y: auto;
+    max-height: 500px;     adjust the height to your liking 
+       }  */
+.skilltitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+  padding-top: 0rem;
+ margin-bottom: 0rem;
+
+
+}
+.skilldescription{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+.Skillsbars{
+
+margin: 0rem;
+width: 80vw;
+max-width: 80rem;
+text-align: left;
+}
+.Skillbar1{
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(212, 39, 39);
+}
+.Skillbar2{
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(212, 39, 39);
+}
+.Skillbar1img{
+     object-fit: cover;
+     height: 6rem;
+     width: 6rem;
+     margin-right: 2rem;
+     /* border-radius: 3rem; */
+}
+.Skillbar2img{
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 2rem;
+    /* border-radius: 3rem; */
+}
+.Skillbar1text >h2{
+color: white;
+
+}
+.Skillbar1text>p{
+font-size: 15px;
+font-weight: 200;
+color: white;
+}
+.Skillbar2text >h2{
+    color: white;
+    
+    }
+.Skillbar2text>p{
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    }
+    .Skillbar1:hover, .Skillbar2:hover {
+        transform: scale(1.1); /* increase the size by 10% */
+        transition: transform 0.3s ease-in-out;}
+ 
+
+
+    @media screen and (max-width:452px){
+        .Skillsbars{
+            width: 95vw;
+        }
+        .Skillbar1img{
+            height: 5rem;
+            width: 5rem;
+            margin-top: 1.7rem;
+        }
+        .Skillbar2img{
+            height: 5rem;
+            width: 5rem;
+            margin-top: 1.7rem;
+        }
+        .Skillbar1text >h2{
+            font-size: 20px;
+            margin-left: -1rem;
+        }
+        .Skillbar2text >h2{
+            font-size: 20px;
+            margin-left: -1rem;
+        }
+        .Skillbar1text>p{
+            margin-left: -1rem;
+        }
+        .Skillbar2text>p{
+            margin-left: -1rem;
+        }
+    }

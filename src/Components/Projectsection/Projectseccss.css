@@ -1,0 +1,123 @@
+ #projects{
+    margin: 0 auto;
+    min-height: calc(70vw - 3rem);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+ }
+ .projecttitle{
+   font-size: 3rem;
+    font-weight: 600;
+  padding-top: 0rem;
+ margin-bottom: 1rem;
+ }
+ .projectdescription{
+   font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+ }
+ .slideimages {
+   
+  position: relative;
+  width: 90vw;
+  max-width: 68rem;
+  height: 400px;
+  margin: 0rem;
+ 
+}
+.slidecaption{
+  position: absolute;
+  /* top:50%;
+  left: 50%; */
+  transform: translateY(10rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ color: white;
+}
+
+ .prev {
+  position: absolute;
+  margin-left:-10rem;
+
+  transform: translateY(-12rem);
+  z-index: 1;
+  width: 0rem;
+  height: 48px;
+  border-radius: 24px;
+  background-color: rgb(14, 5, 5);
+  border: 0px solid #f7f1f1;
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  margin-left: 7rem;
+  transform: translateY(-12rem);
+  z-index: 1;
+  width: 0rem;
+  height: 48px;
+  border-radius: 24px;
+  background-color: rgb(14, 5, 5);
+  border: 0px solid #f5ecec;
+  cursor: pointer;
+  
+}
+ 
+.seemore{
+  margin: 3rem 0;
+  font-size: large;
+    background-color: #faf7f7;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+ }
+ .ratio {
+  transition: transform 0.5s;
+}
+
+.ratio:hover {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 883px){
+  .next{
+    margin-left: 20rem;
+  }
+  .prev{
+    margin-left: -24rem;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .next{
+    margin-left: 4rem;
+  }
+  .prev{
+    margin-left: -7rem;
+  }
+}
+@media screen and (max-width: 258px){
+  .next{
+    margin-left: 2rem;
+  }
+  .prev{
+    margin-left: -5rem;
+  }
+}
+@media screen and (max-width:389px) {
+  .slidecaption{
+    transform: translateY(13rem);
+  }
+  
+}

@@ -1,0 +1,142 @@
+.navbar {
+  background-color: rgb(30, 30,30);
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+   
+  }
+  
+  .logo {
+    margin-left: 2px;
+    margin-right: 8px;
+    object-fit: cover;
+    height: 5rem;
+    width: 6rem;
+    padding-top: .3%;
+    
+  }
+  
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+     
+     color: rgb(230, 233, 39);
+    margin-right: 20px;
+  }
+    
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  li:last-child {
+    margin-right: 0;
+  }
+.navbar ul li:hover {
+  color: rgb(247, 247, 244);
+  padding-bottom: 0.1rem;
+  border-bottom: 3px solid rgb(239, 243, 27);
+
+}
+  
+
+  
+  .desktopbtn {
+    
+    background-color: #f3eeee;
+    color: rgb(15, 15, 15); 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3rem;
+    
+  }
+  
+  .desktopbtn:hover {
+    background-color: #f1baba;  
+  }
+  
+  .desktopicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .navmenulogo{
+    height: 4rem;
+  }
+  .navmenulogo{
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+  }
+  .navmenu {
+    position: absolute;
+    top: 4rem;
+    right: 7rem;
+    z-index: 2;
+    padding: 2rem;
+    min-width: 15rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.navmenu ul {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+   list-style: none; /* Remove bullet points */
+    padding: 4rem; /*Remove default padding*/
+    background-color: rgb(13, 10, 19);
+    border-radius: 2rem;
+   
+}
+
+.navmenu ul li {
+    margin-right: 2px; /* Add some space between menu items */
+    margin: 0.5rem;
+    width: 6rem;
+    justify-content: center;
+    /* background-color: rgb(30, 30,30); */
+    
+}
+ .navmenu ul li:hover{
+  /* background-color: rgb(30, 30,30); */
+  border-bottom: 3px solid rgb(230, 233, 39);
+ }
+
+  
+  /* Responsive styling for smaller screens */
+  @media screen and (max-width:790px) {
+    .navmenulogo{
+      display: flex;
+    }
+    .desktopmenu{
+      display: none;
+    }
+    .desktopbtn{
+      display: none;
+    }
+   .desktopmenubar{
+        display: none;
+      }
+  }
