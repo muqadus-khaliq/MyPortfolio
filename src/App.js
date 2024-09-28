@@ -59,15 +59,7 @@ function App() {
  <li>
    <Link to='/About' onClick={()=>setshowMenu(!showMenu)}>About</Link>
  </li>
- <li>
-   <Link to='/Skills' onClick={()=>setshowMenu(!showMenu)}>Skills</Link>
- </li>
- <li>
-   <Link to='/Projects' onClick={()=>setshowMenu(false)}>Projects</Link>
- </li>
- <li>
-   <Link to='/Contact' onClick={()=>setshowMenu(!showMenu)}>Contact</Link>
-   </li>
+ 
 </ul>
 </div>
 </nav>
@@ -77,9 +69,9 @@ function App() {
     
         <Route path='/' element={<Home/>}/> 
         <Route path='/About' element={<About/>}/> 
-        <Route path='/Projects' element={<Projects/>}/> 
-        <Route path='/Skills' element={<Skills/>}/> 
-        <Route path='/Contact' element={<Contact/>}/> 
+        // <Route path='/Projects' element={<Projects/>}/> 
+        // <Route path='/Skills' element={<Skills/>}/> 
+        // <Route path='/Contact' element={<Contact/>}/> 
   
         
 
