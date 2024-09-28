@@ -5,9 +5,7 @@ import  Logo from'./Images/logo.png';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home.js';
-import About from './Pages/About.js';
-import Skills from './Pages/Skills.js';
-import Projects from './Pages/Projects.js';
+import About from './Pages/About.js'; 
 import Contact from './Pages/Contact.js';
 import Contactimg from './Images/Contact.png';
 import mobilelogo from './Images/burger_menu-removebg-preview.png'
@@ -37,12 +35,6 @@ function App() {
       </li>
       <li>
         <Link to='/About'>About</Link>
-      </li>
-      <li>
-        <Link to='/Skills'>Skills</Link>
-      </li>
-      <li>
-        <Link to='/Projects'>Projects</Link>
       </li>
       <li>
         <Link to='/Contact'>Contact</Link>
